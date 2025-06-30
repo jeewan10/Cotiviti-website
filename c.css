@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#menu li{
+    display:inline-block;
+}
+
+#logo{
+    width: 220px;
+}
+
+nav{
+    float: right;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #330f6e;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu a.active
+{
+color: #bc188d;
+}
+#intro
+{
+    background-color: #330f6e;
+}
+h1{
+    color: white;
+}
+
+#white-box
+
+{
+    
+    background: white;
+    width: 50%;
+    padding: 20px 20px 30px;
+    margin: 30px;
+}
+
+#white-box small
+{
+    color: #7f7f7f;
+}
+
+#white-box h2{
+    color: #330f6e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#white-box p{
+    color:#bc188d
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#intro
+{
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 55% auto;
+}
+
+#body{
+
+    background-color: white;
+    background-image: url(building.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 40% 90%;
+    margin-top: 30px;
+}
+#para1{
+    width: 397px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+#par2{
+    width: 397px;
+    height: 72px;
+    margin-bottom: 24px;
+    margin-right: 50px;
+}
+
+#body span{
+    color: #2e3192;
+
+}
+
+#img{
+    
+    background-image: url(lab.jpg);
+background-position: center;
+background-attachment: fixed;
+height: 400px;
+}
+#join
+{
+    background-image: url(join.png);
+    background-repeat: no-repeat;
+    background-position:bottom center ;
+    text-align: center;
+}
+#join small{
+    color:gray;
+}
+h2{
+    color: rgb(46, 49, 146);
+}
+#join .active
+{
+    color: #bc188d;
+    text-align: left;
+
+}
+
+#join a{
+    color: #2e3192;
+    display: inline-block;
+    border-style: solid;
+    border-color:#2e3192;
+    padding: 10px 10px;
+    margin: 20px;
+}
